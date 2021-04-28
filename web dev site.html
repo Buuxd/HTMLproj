@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<link rel="stylesheet" href="style.css"> 
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>WEB DEV SITE</title>
+<script src="script.js"> </script> 
+<script type="text/javascript">
+function input()
+{
+var html_entry = document.getElementById("html_box").value;
+var css_entry = document.getElementById("css_box").value;
+document.getElementById("main").innerHTML = "<style>" + css_entry + "</style>" + html_entry;
+}
+</script>
+</head>
+<body>
+<p class="banner">nightmare nightmare nightmare nightmare</p>
+
+<textarea cols="50" rows="15" id="html_box" placeholder="Type html here..."></textarea>
+<textarea name="css_box" cols="50" rows="15" id="css_box" placeholder="Type css here..."># main {     
+}</textarea>
+<br/>
+<div id="main">
+</div>
+<input type= "submit" value = "lol" onclick= "input()" />
+</body>
+</script> 
+</html>
+
