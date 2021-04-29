@@ -1,5 +1,8 @@
 @charset "utf-8";
 /* CSS Document */
+* {
+	cursor:auto;
+}
 body {
 	background-color: #424549;
 	font-family:Verdana, Geneva, sans-serif;
@@ -28,6 +31,7 @@ body {
 	background-color: #7289da;
 	border:1px solid #FFF;
 	font-size:25px;
+	overflow-style:marquee-block;
 }
 
 	
