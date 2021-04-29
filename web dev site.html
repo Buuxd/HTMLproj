@@ -4,27 +4,21 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>WEB DEV SITE</title>
-<script src="script.js"> </script> 
-<script type="text/javascript">
-function input()
-{
-var html_entry = document.getElementById("html_box").value;
-var css_entry = document.getElementById("css_box").value;
-document.getElementById("main").innerHTML = "<style>" + css_entry + "</style>" + html_entry;
-}
-</script>
+<script src="script.js"> 
+</script> 
 </head>
 <body>
 <p class="banner">nightmare nightmare nightmare nightmare</p>
 
-<textarea cols="50" rows="15" id="html_box" placeholder="Type html here..."></textarea>
-<textarea name="css_box" cols="50" rows="15" id="css_box" placeholder="Type css here..."># main {     
+<textarea name="html_box" cols="50" rows="15" id="html_box" placeholder="Type html here..." onkeyup="checkKeypress(this, event)"></textarea>
+<textarea name="css_box" cols="50" rows="15" id="css_box" placeholder="Type css here...">#main {     
 }</textarea>
+<script src="auto.js"></script>
 <br/>
 <div id="main">
 </div>
 <input type= "submit" value = "lol" onclick= "input()" />
 </body>
-</script> 
+
 </html>
 
