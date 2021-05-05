@@ -2,7 +2,7 @@
 /* CSS Document */
 * {
 	cursor:auto;
-	font-family: 'Press Start 2P', cursive;
+	font-family: Verdana, Geneva, sans-serif;
 }
 body {
 	background-color: #424549;
@@ -24,7 +24,7 @@ body {
 } 
 
 #main {
-	position:absolute;
+	position:static
 	left:800px;
 	top:50px;
 	height:700px;
