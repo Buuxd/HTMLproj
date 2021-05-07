@@ -7,7 +7,7 @@
 <script src="script.js"> 
 </script> 
 </head>
-<body>
+<body onload="onLoad(), input()">
 <p class="banner">nightmare nightmare nightmare nightmare</p>
 
 <textarea name="html_box" cols="50" rows="15" id="html_box" placeholder="Type html here..." onkeyup="checkKeypress(this, event)" onkeypress="input()"></textarea>
@@ -16,6 +16,8 @@
 <script src="auto.js"></script>
 <script> function onLoad(){ 
 var content = localStorage.getItem("html");
+var csstent = localStorage.getItem("css");
+document.getElementById("css_box").value = csstent;
 document.getElementById("html_box").value =content;
 }
 </script> 
@@ -25,4 +27,3 @@ document.getElementById("html_box").value =content;
 </body>
 
 </html>
-
