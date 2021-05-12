@@ -13,22 +13,34 @@ body {
 
 #html_box {
 	background-color: #7289da;
-	border: 100px;
+	float: center;
+	border: none;
+	width:32%;
+	resize: none;
 }
 
 
 #css_box {
 	background-color: #7289da;
-	border: 100px;
-	
+	border: none;
+	width:32%;
+	resize: none;
 } 
 
+#js_box {
+	background-colour: #7289da;
+	border: 100px;
+	width:32%;
+	resize: none;
+}
+	
+
 #main {
-	position:static
-	left:800px;
+	position:static;
+	left:950px;
 	top:50px;
 	height:700px;
-	width:500px;
+	width:100%;
 	background-color: #7289da;
 	border:1px solid #FFF;
 	font-size:25px;
